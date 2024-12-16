@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "precomfpricing"
+version = "0.1.0"
+description = "A Pricing Library For Inclusion Preconfirmations"
+authors = ["Nethermind"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.0"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+scipy = "^1.14.1"
+statsmodels = "^0.14.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
